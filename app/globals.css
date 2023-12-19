@@ -25,3 +25,55 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.bar{
+  width: 50rem;
+}
+
+.empbody{
+  width:  90%;
+  height: 80vh;
+}
+.orederbody{
+  width:  95%;
+  height: 90vh;
+}
+.tables{
+  width: 95%;
+
+
+}
+.sidebar{
+  width:25%;
+}
+.orgsidebar{
+  width: 60%;
+}
+.bodyworker{
+  width: 75%;
+  height: 100%;
+}
+.profile{
+  height: 70vh;
+}
+.name{
+  width: 190px;
+}
+.new_order{
+  width: 90%;
+  height: 80%;
+}
+
+.scrollbar::-webkit-scrollbar{
+  display: none;
+}
+.scrollbar{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+::-webkit-scrollbar { 
+  display: none; 
+  }
+  embed{
+    overflow: hidden !important;
+
+  }
